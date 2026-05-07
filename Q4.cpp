@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
-float bs,DA,HRA,otherAllowances,grosssalary;
-cout<<"Enter the basic salary:";
-cin>>bs;
-DA=(bs/100)*40;
-HRA=(bs/100)*20;
-otherAllowances=(bs/100)*10;
-grosssalary=bs+DA+HRA+otherAllowances;
-cout<<"\n"<<grosssalary;
-
-
-
+int A,B;
+cout<<"Enter the number of A:";
+cin>>A;
+cout<<"Enter the number of B:";
+cin>>B;
+if(A>B){
+    cout<<" A is a greater than B";
 }
+else if (A<B){
+    cout <<"B is a greater than A";
+}
+}
+

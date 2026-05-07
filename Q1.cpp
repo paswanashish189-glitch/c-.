@@ -1,17 +1,19 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
-int a,b,c;
-
-cout<<"Enter the 1st swap number:";
+int a;
+cout<<"Enter a number:";
 cin>>a;
-cout<<"Enter the 2nd swap number:";
-cin>>b;
-c=a;
-a=b;
-b=c;
-cout<<"1st wrap number:"<<a;
-cout<<"\n 2nd wrap number:"<<b;
+if(a>0){
+   cout<< "this number is positive:";
+}
+else if(a<0){
+    cout <<"this number is negative:";
+}
+if(a==0){
+    cout<<" this number is zero:";
+}
 
 
 }
+

@@ -1,14 +1,14 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
-    double a, b, result;
-    cout << "Enter value of a: ";
-    cin >> a;
-
-    cout << "Enter value of b: ";
-    cin >> b;
-    result = a*a + 2*a*b + b*b;
-    cout << "The value of (a + b)^2 is: " << result << endl;
+int main(){
+int a;
+cout<<"Enter the your Age a:";
+cin>>a;
+if(a>18){
+     cout<<"A person is eligible to vote:";
+}
+else if (a<18){
+    cout<<"A person is not eligible to vote:";
+}
 
 }

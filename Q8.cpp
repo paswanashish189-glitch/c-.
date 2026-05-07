@@ -1,17 +1,23 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+int main(){
+int Math_marks,Chemistry_marks,Physics_marks,English_marks;
+cout<<"Enter the Math marks:";
+cin>>Math_marks;
 
-int main() {
-    char ch;
+cout<<"Enter the Chemistry marks:";
+cin>>Chemistry_marks;
 
-    cout << "Enter a character: ";
-    cin >> ch;
+cout<<"Enter the Physics marks:";
+cin>>Physics_marks;
 
-    // Explicit type casting
-    int asciiValue = (int)ch;
+cout<<"Enter the English marks:";
+cin>>English_marks;
 
-    cout << "Character entered: " << ch << endl;
-    cout << "ASCII value: " << asciiValue << endl;
+int percentage= (Math_marks+Chemistry_marks+Physics_marks+English_marks)/4;
+
+
+cout<<"Total percentage"<<percentage<<endl;
+
 
 }
-
