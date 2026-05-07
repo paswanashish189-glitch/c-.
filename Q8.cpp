@@ -1,13 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-float rate,time, principal,interest;
-cout<<"Enter the rate:";
-cin>>rate;
-cout<<"Enter the time:";
-cin>>time;
-cout<<"Enter the principal:";
-cin>>principal;
-interest=(principal*rate*time /100);
-cout<<interest;
+
+int main() {
+    char ch;
+
+    cout << "Enter a character: ";
+    cin >> ch;
+
+    // Explicit type casting
+    int asciiValue = (int)ch;
+
+    cout << "Character entered: " << ch << endl;
+    cout << "ASCII value: " << asciiValue << endl;
+
 }
+

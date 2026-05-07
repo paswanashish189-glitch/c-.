@@ -1,17 +1,16 @@
 #include <iostream>
 using namespace std;
-int main(){
-float length ,breadth;
 
-cout <<"Enter the value of length:";
-cin>>length;
+int main() {
+    int num1 = 10;        // Integer value
+    float num2 = 5.5f;    // Float value
 
-cout<<"Enter the value of breadth:";
-cin>>breadth;
+    // Implicit type casting happens here
+    float result = num1 + num2;
 
-cout <<"area of rectangle:" <<length*breadth;
-
-
+    cout << "Integer value: " << num1 << endl;
+    cout << "Float value: " << num2 << endl;
+    cout << "Result after addition (implicit casting): " << result << endl;
 
 
 }

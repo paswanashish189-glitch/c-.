@@ -1,12 +1,16 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
- float celsius,fehranheight;
- cout<<"Enter the number of celsius :";
- cin>>celsius;
- fehranheight=(9/5*celsius)+32;
- cout <<fehranheight;
 
+int main() {
+    float num = 9.75f;   // Float value
 
+    // Explicit type casting
+    int convertedNum = (int)num;
 
+    cout << "Original float value: " << num << endl;
+    cout << "After explicit casting to int: " << convertedNum << endl;
+
+    return 0;
 }
+
+

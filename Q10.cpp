@@ -1,27 +1,25 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+int main(){
+char ch;
 
-int main() {
-    double num1, num2;
+cout << "Enter a character: ";
+cin >> ch;
+// Convert uppercase to lowercase
+ch = tolower(ch);
 
-    cout << "Enter first number: ";
-    cin >> num1;
-
-    cout << "Enter second number: ";
-    cin >> num2;
-
-
-    cout << "\nResults:" << endl;
-    cout << "Addition: " << num1 + num2 << endl;
-    cout << "Subtraction: " << num1 - num2 << endl;
-    cout << "Multiplication: " << num1 * num2 << endl;
-
-
-    if (num2 != 0) {
-        cout << "Division: " << num1 / num2 << endl;
+if (isalpha(ch)) {
+if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+cout << "The character is a vowel." << endl;
+} else {
+cout << "The character is a consonant." << endl;
+        }
     } else {
-        cout << "Division: Undefined (cannot divide by zero)" << endl;
+        cout << "The entered character is not an alphabet letter." << endl;
     }
 
-    return 0;
+
 }
+
+
+

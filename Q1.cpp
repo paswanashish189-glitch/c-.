@@ -1,9 +1,17 @@
 #include <iostream>
 using namespace std;
-
 int main(){
-  cout << "Hello World!";
+int a,b,c;
 
-  return 0;
+cout<<"Enter the 1st swap number:";
+cin>>a;
+cout<<"Enter the 2nd swap number:";
+cin>>b;
+c=a;
+a=b;
+b=c;
+cout<<"1st wrap number:"<<a;
+cout<<"\n 2nd wrap number:"<<b;
+
+
 }
-

@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
- int main(){
- int a ;
- cout<<"enter the integer: ";
- cin>>a;
+int main(){
 
-cout<<a;
+float a,b,c,average;
+cout << "Enter three numbers:";
+cin>> a>>b >>c;
+average = (a + b + c) / 3;
+// Display result
+cout << "Average = " << average<< endl;
 
- }
+}
 
 
